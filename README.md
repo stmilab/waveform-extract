@@ -1,4 +1,4 @@
-# waveform_extract
+# Waveform Extraction
 Code for extracting waveform data from our server
 
 # How to use

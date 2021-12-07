@@ -130,3 +130,6 @@ dmypy.json
 
 # Saved data
 *.csv
+
+# Exceptions
+!example_patient_list.csv

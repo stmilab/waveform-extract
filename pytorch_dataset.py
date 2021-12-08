@@ -58,10 +58,6 @@ class WaveForm(Dataset):
         while idx >= self.frame_lengths[frame_idx]:
             idx -= self.frame_lengths[frame_idx]
             frame_idx += 1
-            
-            if frame_idx >= len(self.frame_lengths):
-                print('out of range', frame_idx, idx)
-                raise
                 
         idx *= self.stride
         data = self.data[frame_idx][idx:idx+self.window_size]
